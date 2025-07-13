@@ -80,4 +80,82 @@ int main() {
 
     printf("Target int is %d\n",targetInt); // the output will be 97, char doesn't store letter a it stores 97 for lowercase and 65 for upper.
     // it also work the other way around if you would set value of targetInt to 65 and cast it into a char you'll get 'A'
+
+
+    int num1 = 2;
+    int num2 = 7;
+
+    int result = num1%num2;
+
+    printf("The result is %d",result); // aparently modulo 2 % 7 is 2 beacuse it equals to 0 and remainder of 2
+
+    // mathematical shortcuts are 
+    /*
+    +=
+    -=
+    *=
+    /=
+    %=    
+    */
+
+    /* Order of assignments operator
+    Priority 	Symbol
+    1 	++
+    1 	--
+    1 	()
+    2 	!
+    2 	(typecast)
+    3 	*
+    3 	/
+    3 	%
+    4 	+
+    4 	-
+    5 	<, <=
+    5 	>, >=
+    6 	==, !=
+    7 	&&
+    8 	||
+    9 	all assignment operators
+    
+    */
+
+
+    // example of switch case statement -One restriction on this expression is that it must evaluate to 
+    // an integral type (int, char, short, long, long long, or enum).
+    /*
+        int number = 7;
+
+    switch(number) {
+        case 1:
+        printf("Bulbasaur\n");
+        break;
+        case 2:
+        printf("Ivysaur\n");
+        break;
+        case 3:
+        printf("Venusaur\n");
+        break;
+        case 4:
+        printf("Charmander\n");
+        break;
+        case 5:
+        printf("Charmeleon\n");
+        break;
+        case 6:
+        printf("Charizard\n");
+        break;
+        default:
+        printf("Unknown\n");
+        break;
+    }
+    */
+
+
+    // ternery operator
+    // condition ? do something : do something else;
+    /*
+    min = a < b ? a : b;
+    this check is a is less than b and if it is assigns a to min else assigns b
+    a < b ? printf("%d\n", a) : printf("%d\n", b); this one prints the smaller number without the return
+    */
 }
